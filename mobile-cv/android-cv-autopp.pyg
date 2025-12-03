@@ -1,1 +1,0 @@
-class Y: public X {}; instead of class Y: virtual public X { }; and class Z: public YA, YB {};
