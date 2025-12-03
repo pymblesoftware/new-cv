@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{Y}\PYG{o}{:}\PYG{+w}{ }\PYG{k}{public}\PYG{+w}{ }\PYG{n}{X}\PYG{+w}{ }\PYG{p}{\PYGZob{}\PYGZcb{};}\PYG{+w}{ }\PYG{n}{instead}\PYG{+w}{ }\PYG{n}{of}\PYG{+w}{ }\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{Y}\PYG{o}{:}\PYG{+w}{ }\PYG{k}{virtual}\PYG{+w}{ }\PYG{k}{public}\PYG{+w}{ }\PYG{n}{X}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{p}{\PYGZcb{};}\PYG{+w}{ }\PYG{k}{and}\PYG{+w}{ }\PYG{k}{class}\PYG{+w}{ }\PYG{n+nc}{Z}\PYG{o}{:}\PYG{+w}{ }\PYG{k}{public}\PYG{+w}{ }\PYG{n}{YA}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{YB}\PYG{+w}{ }\PYG{p}{\PYGZob{}\PYGZcb{};}
+\end{Verbatim}

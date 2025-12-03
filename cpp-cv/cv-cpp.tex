@@ -1,0 +1,866 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{shapepar}
+\usepackage{caption}
+
+\usepackage{CJKutf8}
+
+%% TODO: reference the same footnotes in multiple places.
+%% https://tex.stackexchange.com/questions/35043/reference-different-places-to-the-same-footnote
+
+\usepackage{calligra}
+\usepackage[T1]{fontenc}
+
+%% Testing %%
+\usepackage{minted}
+
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+
+\usepackage{eso-pic, rotating, graphicx}
+
+\AddToShipoutPicture{\put(20,275){\rotatebox{90}{\scalebox{.95}{Latest CV:   \textcolor{blue} { \underline{https://www.pymblesoftware.com/cv.pdf} } }}}}
+%\AddToShipoutPicture{\put(580,275){\rotatebox{90}{\scalebox{.95}{Latest CV:   \textcolor{blue} { \underline{https://www.pymblesoftware.com/cv.pdf} } }}}}
+\AddToShipoutPicture{\put(590,275){\rotatebox{90}{\scalebox{.95}{Latest CV:   \textcolor{blue} { \underline{https://www.pymblesoftware.com/cv.pdf} } }}}}
+
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage[english]{babel}
+\usepackage[russian,english]{babel}
+\usepackage{tikz-uml}
+\usepackage{pdflscape}
+
+\usepackage{xcolor, soul}
+
+\let\svthefootnote\thefootnote
+\newcommand\Cfootnote[2][black]{\def\thefootnote{\color{#1}\svthefootnote}%
+  \footnote{\color{#1}#2}}
+\newcommand\CBfootnote[2][black]{\def\thefootnote{\color{#1}\svthefootnote}%
+  \footnote{\sethlcolor{#1}\hl{#2}}}
+
+\usepackage[margin=0.5in]{geometry}
+
+
+\usepackage{pst-barcode}
+\usepackage{auto-pst-pdf} % uncomment this if used with pdflatex
+
+\usepackage{arabtex}
+
+
+%%%% TEST
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+
+%%% Test Russian
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+%\usepackage[russian,english]{babel}
+
+
+
+
+%%
+%% Date stuff
+%% https://tex.stackexchange.com/questions/14518/difference-between-two-dates
+%%
+
+\usepackage{datenumber}
+
+\newcounter{dateone}
+\newcounter{datetwo}
+
+\newcommand{\difftoday}[3]{%
+      \setmydatenumber{dateone}{\the\year}{\the\month}{\the\day}%
+      \setmydatenumber{datetwo}{#1}{#2}{#3}%
+      \addtocounter{datetwo}{-\thedateone}%
+      \the\numexpr-\thedatetwo/365\relax\space year(s),
+      \the\numexpr(-\thedatetwo - (-\thedatetwo/365)*365)/30\relax\space month(s)
+} 
+
+\usepackage{subfigure}
+
+%\usepackage[demo]{graphicx}
+%\usepackage{caption}
+%\usepackage{subcaption}
+
+
+\begin{document}
+
+\begin{wrapfigure}{R}{0.1 \textwidth}
+ \begin{pspicture}(1in,1in)
+ \psbarcode{https://pymblesoftware.com/cv.pdf}{}{qrcode}
+ \end{pspicture}
+ \caption*{Latest CV} 
+\end{wrapfigure}
+
+
+
+
+\title{ \calligra{Curriculum Vitae} }
+\author{Regan Russell BSc}
+\maketitle
+
+
+
+\begin{center}  
+%Latest CV update:  \textcolor{blue} { \underline{ https://www.pymblesoftware.com/cv.pdf } } \\ 
+\begin{tabular}{ lll }
+ %% Software Consultant \footnote{ Tax office rules \textcolor{blue} { \underline{   https://www.ato.gov.au/business/personal-services-income/ } }} &  \\
+ %%%%%% \input{line.txt}
+Phone:  & +61 41 428 7577  \\ 
+%             & +44 800 102 6782 \\
+%WhatsApp: &  +971 56 878 9513 \\
+%             +81 \\ 
+%Email: regan.russell {@} gmail.com    
+Email:  & regan  {@} pymblesoftware.com   \\
+            & regan.russell @ gmail.com  
+\end{tabular}
+
+\textcolor{blue} { \underline{  https://www.linkedin.com/in/pymblesoftware/ } } 
+
+\end{center}
+
+%% Spiral text...
+\usetikzlibrary{decorations.text}
+
+
+% \input{synopsis.tex}
+
+
+%GitHub: \\
+ % \textcolor{blue} { \underline{   https://github.com/pymblesoftware  } } \\
+
+%Current personal project: \\
+ % \textcolor{blue} { \underline{   https://objective-c2swift.com  } }  \\
+
+% \input{referees.tex}
+
+
+
+
+\newpage
+
+\subsection*{Previous Experience}
+
+
+\textbf{Contract roles through PymbleSoftware Pty Ltd since 2008} \difftoday{2008}{01}{01}.  \\
+\textbf(Personal contracts since 1998)   \difftoday{1998}{01}{01}. \\
+\\
+
+% \underline{ October 2023 -  } \\
+Recent \\
+Academic projects. \\
+Business projects. \\
+Personal software projects.\\
+Real estate projects. \\
+Working with publishers on technical manuscripts as part of the editorial cycle.\\
+\\
+
+\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+\\
+
+% \underline{July 2023 - October 2023  (Contract) } \\
+%\textbf{ Cross-platform mobile developer with Flutter / PHP Laravel (Lumens) developer (Contract) } \\
+%Charitable Organisation %  \textbf { Sadaqa Welfare Fund}. \\ %  ( www.sadaqa.org.au )\\
+%\\
+%Flutter (3.10.6), Flutter Realm (1.3.0 ), Dart, Stripe (flutter\_stripe:9.3.0), credit\_card\_scanner (1.0.5), PHP, Laravel. Lumens.\\
+%\\
+%% Sadaqa provides food and builds water projects (wells) and other charitable causes like building hospitals. \\
+%GDPR (privacy by design) and PCI DSS (card data handling) compliant as possible. Only static content is kept in an in-memory database, not even in storage. \\
+%Over 12,000 lines of Flutter code. Over 800 lines of PHP web service code. \\
+%I read somewhere that the average US programmer averages 200 lines of code per day. In the first month, I averaged over 500 lines of code per day.
+%\textbf{Greenfield} project from start to finish. Donation app for water and food aid projects. \textbf{Cross platform} with \textbf{flutter}. Did all the web services with Laravel/Lumens and MySQL database. \\
+%\\ 
+%\textbf{Payment gateway integration} with \textbf{Stripe}. \\
+%\\
+%
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%
+%% \underline{January 2023 - April 2023   } \\
+%\textbf{ iOS and Android Developer (Native) }  \\
+%Company  \textbf {Humm Group}  \\
+%\textcolor{blue} { \underline{  https://humm-group.com  } }  \\
+%\textcolor{blue} { \underline{ https://apps.apple.com/au/app/humm/id1455391873  } }  \\
+%\textcolor{blue} { \underline{ https://apps.apple.com/au/developer/humm-pro-pty-ltd/id1532343413  } }  \\
+%\textcolor{blue} { \underline{ https://apps.apple.com/ca/app/humm-ca/id1586818651 } }  \\
+%\\
+%Apps: Bundll, QANTAS Pay, Humm Pro, Humm Canada, Humm Cards and legacy apps which included the following tools and libraries:\\
+%\\
+%AFNetworking\Cfootnote[blue]{\label{afnet} https://cocoapods.org/pods/AFNetworking}, FLAnimatedImage\Cfootnote[blue]{https://cocoapods.org/pods/FLAnimatedimage}, Auth0\Cfootnote[blue]{\label{auth0}https://auth0.com/}, NVActivityIndicatorView\Cfootnote[blue]{https://cocoapods.org/pods/NVActivityIndicatorView}, Floating Panel, JWTDecode\Cfootnote[blue]{https://cocoapods.org/pods/JWTDecode}, Kingfisher\Cfootnote[blue]{https://cocoapods.org/pods/Kingfisher}, Firebase, Dynatrace, AppFlyerFramework, CardIO\Cfootnote[blue]{https://cocoapods.org/pods/CardIO}, EMSMobileSDK, Alamofire\Cfootnote[blue]{https://cocoapods.org/pods/Alamofire}, Lottie\Cfootnote[blue]{https://cocoapods.org/pods/lottie-ios}, 
+%KeychainSwift\Cfootnote[blue]{https://cocoapods.org/pods/KeychainSwift}, Branch, Swipe, Validator, SwiftEntryKit\Cfootnote[blue]{https://cocoapods.org/pods/SwiftEntryKit}, SVProgressHUD\Cfootnote[blue]{https://cocoapods.org/pods/SVProgressHUD-0.8.1}, SwiftLint, Quick, Nimble,  IOSSecuritySuite, Snapkit, SwipeCellKit\Cfootnote[blue]{https://cocoapods.org/pods/SwipeCellKit}, ObjectMapper, SwiftyJSON\Cfootnote[blue]{https://cocoapods.org/pods/SwiftyJSON}, DateToolsSwift\Cfootnote[blue]{https://cocoapods.org/pods/DateToolsSwift}, RangeSeekSlider, NVActivityView, IQKeyboardManager, \textbf{SalesForce} marketing cloud\Cfootnote[blue]{https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/mobile-push-sdk.html},   
+%kotlinkit, cardview, androidx, Gson\Cfootnote[blue]{\label{gson} https://github.com/google/gson}, threetenabp\Cfootnote[blue]{https://github.com/JakeWharton/ThreeTenABP}, brentrielly navigation, picasso\Cfootnote[blue]{https://github.com/square/picasso}, retrofit2\Cfootnote[blue]{\label{retrofit}https://github.com/square/retrofit}, OkHttp3\Cfootnote[blue]{\label{okhttp}https://square.github.io/okhttp/}, biometric, rootbeer\Cfootnote[blue]{https://github.com/scottyab/rootbeer}, fillrembedded, viewpagerdots\Cfootnote[blue]{https://github.com/afollestad/viewpagerdots}, filetree, play services, swipe reveal layout, EML payments\Cfootnote[blue]{https://www.emlpayments.com/}, RxAndroid/RxJava\Cfootnote[blue]{\label{rxjava}https://github.com/ReactiveX/RxAndroid}, epoxy,  TMX, securebank, swiperefreshlayout\Cfootnote[blue]{https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout}, liveness   \\
+%\\
+%Humm Group white labels credit cards and provides financial services such as small to medium-enterprise equipment leasing. 
+%Specifically, Humm provides consumer credit cards / Store cards such as the Farmers\Cfootnote[blue]{https://www.farmers.co.nz/} chain in New Zealand and the QANTAS Pay card.\\
+%\\
+%Since I have had experience with financial services and credit card processing online in one form or another since working with Plink libraries at BDE in 1997; I was able to quickly adapt to the workflows, codebases/business practices of the credit card services provided by Humm Group to provide bug fixes and minor maintenance on 192342 lines of Swift, 879 lines of Objective C, 334037 lines of Kotlin, 47,982 lines of java, excluding libraries. To develop the changes to these codebases I reviewed Figma diagrams and incorporated changes to UI elements in Android and iOS code as per the requirements of the JIRA tickets. \\
+%\\
+%To modernise the build environment, I added Azure DevOps / Fastlane CI/CD build pipelines for a few of the apps. \\ 	
+%%\hl{Added Azure DevOps / Fastlane CI/CD build pipelines for a few of the apps.} \\ 
+%\\
+%
+%%\newpage
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%
+%% \underline{July 2022 -  December 2022 } \\
+%\textbf{ (Native) iOS and Android Developer  }  \\
+%Company  \textbf {Milieu Labs}. (Contract)  \\
+%\textcolor{blue} { \underline{  https://apps.apple.com/au/app/milieu-climate/id1566271872   } }  \\
+%
+%
+%Consumer thermostat systems. \\
+%
+%Pre-existing tech stack: Amazon \textbf {IoT} \Cfootnote[blue]{https://aws.amazon.com/iot/}, AWS, 
+%SwiftFromat, RxSwift\Cfootnote[blue]{https://github.com/ReactiveX/RxSwift}, RxCocoa\Cfootnote[blue]{https://cocoapods.org/pods/RxCocoa}, ReSwift\Cfootnote[blue]{https://cocoapods.org/pods/ReSwift},  AWS SDK iOS, Alamofire, Crashlytics, Freddy,
+%Butterknife\Cfootnote[blue]{https://github.com/JakeWharton/butterknife}, MQTT\Cfootnote[blue]{https://mqtt.org}, RxJava\textsuperscript{\ref{rxjava}}, Redux\Cfootnote[blue]{https://cocoapods.org/pods/Redux}, Mockito, Jetpack. 
+%%Bufferknife, MQTT\footnote{https://mqtt.org}, \hl{RxJava}, \hl{Redux}, Mockito, Jetpack. \\
+%AWS Cognito, AWS IoT, Dagger2, OkHttp\textsuperscript{\ref{okhttp}}, retrofit2\textsuperscript{\ref{retrofit}}  \\
+%\\
+%
+%Milieu Labs provides controls for domestic air conditioning systems. The control unit of the air conditioner is replaced with a module that receives MQTT messages from a server which is indirectly managed through a user's account on the app. 
+%The project added a Zone information screen. Zone state change handling which entailed unpacking MQTT Zone state messages, and translating that through a middleware layer onto the screen through the UI controls. \\
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%% \underline{July 2022 -  October 2022 } \\
+%\textbf{  Android  Developer } \\
+%Company  \textbf {Oracle} (Contract) \\
+%\\
+%Worked on JSON parsing code for an Oracle internal project for external clients. \\
+%The project was under strict NDA. There was an intense level of security around the project. The project had international security implications.  \\
+%\\
+%Technologies employed included OkHttp\textsuperscript{\ref{okhttp}}, Retrofit\textsuperscript{\ref{retrofit}}, bumptech/glide, Appsflyer, Facebook SDK, Firebase, Kakao, Line SDK, SnapChat SDK, Twitter SDK, VK\Cfootnote[blue]{VK is the Russian version of Facebook} SDK. \\
+%\\
+%\\
+%
+%%\begin{wrapfigure}{R}{0.1 \textwidth}
+%%    \centering
+%%    \includegraphics[height=1.5in]{password.png}
+%%    \caption*{ CoverMoore Password Screen}
+%%    \label{simulationfigure}
+%%\end{wrapfigure}
+%%
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%% \underline{January 2022 - June 2022 } \\
+%\textbf{ Android Developer }\\
+%Company  \textbf {Australian Retirement Trust/Sunsuper} (Contract)  \\
+%
+%\textcolor{blue} { \underline{ https://play.google.com/store/apps/details?id=com.sunsuper.prod   } }  \\
+%
+%
+%
+% Java, Kotlin (Android) \\
+%
+%Minor maintenance work. \\
+%Took Figma diagrams and updated UI elements in Android code. \\
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%% \underline{October 2021 - December 2021  } \\
+%\textbf{ Developer }\\
+%Company  \textbf {BP (British Petroleum)}  (Contract) \\
+%No link: The company's internal app is only available on the corporate portal. \\
+%
+%%Flutter, Kotlin (Android), AWS CloudWatch, S3, {\hl {node.js}} Lambdas,  DynamoDB, \\ 
+%\textbf{Flutter}, Kotlin (Android), AWS CloudWatch, S3, node.js Lambdas,  DynamoDB, \\ 
+%Azure DevOps  \\
+%
+%This was a suite of 3 apps that are four internal use by point of sale BP employees. \\
+%\\
+%I introduced the {\bf feature} of local notifications in Kotlin/Android with an Android AlarmManager boot time background service in less than 500 lines of MVVM architected code. \\
+%This was so that station employees could be reminded to rotate stock at certain points in the day. \\
+%% Bug fixing in Kotlin, Flutter and {\hl{node.js}} Lambdas. \\
+% Bug fixing in Kotlin, Flutter and node.js Lambdas. \\
+% Meetings with the UK are scheduled at 8 pm. Late-night meetings are scheduled for every night of the week. Dealing with Teams messages at 12:46 am \\
+%\\
+%
+%\begin{wrapfigure}{R}{0.1 \textwidth}
+%    \centering
+%    \includegraphics[height=1.5in]{password.png}
+%    \caption*{ CoverMoore Password Screen}
+%    \label{simulationfigure}
+%\end{wrapfigure}
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%% \underline{July 2021 - September 2021  } \\
+%\textbf{ Android developer }\\
+%Company  \textbf {CoverMore}  (Contract) \\
+%
+%Kotlin, LiveData, Navigation graph, MVVM.  \\
+%I  {\bf  rewrote} the password reset screen. The design was such that the business logic was in a view model and as the user entered values the view model validated the input against the password rules.
+%Publishing/observing, as the input matched the rules the label of each rule turned from red to green. \\
+%I introduced the {\bf feature} of data binding into the app.
+% Worked on the common button and some of the reusable widgets. \\
+% Android Material design, reusable software components and UI widgets. \\
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%
+%% \underline{April 2021 - July 2021  } \\
+%Company  \textbf {Nightlife music} (Contract) \\
+% \textcolor{blue} { \underline{  https://apps.apple.com/us/app/crowddj/id911666442?ls=1 }}
+%\\
+%%\hl{Java}, Objective-C maintenance work and small projects including work on 8-year-old code base in Objective-C on iOS and \hl{Java} on Android. \\
+%Java, Objective-C maintenance work and small projects including work on 8-year-old code base in Objective-C on iOS and Java on Android. \\
+% 
+%
+%
+%\begin{wrapfigure}{R}{0.1 \textwidth}
+%    \centering
+%    \includegraphics[height=1.5in]{HeritageBank.png}
+%    \caption*{Heritage Bank}
+%    \label{simulationfigure}
+%\end{wrapfigure}
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%%\underline{March 2020 - April 2021  } \\
+%Company  \textbf {Heritage Bank} (Contract) \\
+% \textcolor{blue} { \underline{  https://play.google.com/store/apps/details?id=au.com.heritage.app  }}. \\ 
+% \textcolor{blue} { \underline{  https://apps.apple.com/au/app/heritage-mobile-banking/id386772598?ls=1 }}. \\
+%
+%Originally 100 per cent Objective-C,  I {\bf rewrote} scheduled payments screen in Swift adding new sections and {\bf refactored} the design into separate legacy and MVVM modules.  \\
+%Merged all the complex build steps and frameworks into folders. Reduced the build time from 8 minutes to under one minute. \\
+%
+%Accessibility audit for vision impaired. Added {\bf features} for Apple's VoiceOver support.
+%
+%Provisioning credit cards into Apple Wallet via Apple APIs, encrypting on bank servers with the encryption keys from Apple's API. Leading and mentoring junior developers. \\
+%Cocoapod \\
+%Fixing the build system. \\
+%PassKit \\
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%%\underline{September 2019 - December  2019 } \\
+% Company \textbf {Xinja Bank}  (Contract) \\ 
+%  \textcolor{blue} { \underline{ https://xinja.com.au/ }}  \\
+% \textbf{ Android Developer. }\\
+%Technologies:  Kotlin \\
+%
+%{\bf Maintenance} and minor {\bf bug fixing} of Kotlin NeoBank banking app. Koin and View Model, Live Data, Android material design. \\
+%There were over 20 onboarding screens in creating an account. I was tasked with adding more.  \\
+%
+%Technologies employed included androidx, biometric, firebase, Lottie, GSon\textsuperscript{\ref{gson}}, jodaTime, newRelic,  ok2Curl, retrofit\textsuperscript{\ref{retrofit}}, zendesk\\
+%\\
+%
+%\begin{wrapfigure}{R}{0.1 \textwidth}
+%    \centering
+%    \includegraphics[height=0.75in]{watch.png}
+%    \caption*{Watch App}
+%    \label{simulationfigure}
+%\end{wrapfigure}
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%% \underline{August 2019 - September 2019 } \\
+%Client \textbf {NSW Government DFSI}  (Contract)  \\
+%\textbf{ iOS and Android developer }\\
+%Technologies: Swift / Kotlin \\
+%\textcolor{blue} { \underline{ https://play.google.com/store/apps/details?id=au.gov.nsw.onegov.parknpay.release\  } }  \\  
+%\textcolor{blue} { \underline{ https://apps.apple.com/au/app/parknpay/id1453474761?mt=8  } } \\
+%
+%
+%Added {\b feature} of Braintree payments integration in Swift and Kotlin in an app for NSW Government including Apple Pay and Google Pay. \\
+%The previous payment {\bf integration} had reportedly been problematic and the payment gateway vendor for Braintree was almost effortless. \\
+%It took less effort and resources than expected so I added the {\bf features} of Apple Watch and Android Gear Watch integration into the app for the NSW government. \\
+%Did a custom notification where the countdown timer and buttons appear in the phone notifications even on the lock screen. \\
+%
+%
+%\begin{wrapfigure}{R}{0.1 \textwidth}
+%    \centering
+%    \includegraphics[height=1.5in]{payments.jpg}
+%    \caption*{Payments}
+%    \label{simulationfigure}
+%\end{wrapfigure}
+%
+%The app communicates with an internal server, which acts as a proxy for another server that manages parking meters.  \\
+%Part of the credit card processing integration occurred on the parking meter servers and part was within the app. \\
+%
+%
+%The idea of the app is to pay for parking meters from the phone and be notified of the need to top up the parking meter if it is about to expire by tapping on the watch and the phone notifications. \\
+%Complex integration due to the number of servers involved and the number of moving parts and the level of security.\\
+%All the watch app extensions, all the app to payment gateway integration. \\ 
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%%\underline{June 2019 - July 2019 } \\
+%Client    \textbf  {Rydo Taxi app }.  (Contract)  \\
+% \textcolor{blue} { \underline{https://apps.apple.com/au/app/rydo/id1150318596 } } \\
+% \textcolor{blue} { \underline{https://play.google.com/store/apps/details?id=com.Rydotechnologies.Rydo\&hl=en  }}   \\
+%\textbf{  iOS and Android developer. }\\
+%Technologies: Swift / Kotlin \\
+%
+%
+%{\bf Maintenance} work and small projects involving C\#, Swift, Java, and Kotlin (Mostly Java on the Android side of things).   Fixed about a dozen bugs each week on Android then about a dozen on iOS the next week. The code was breathtakingly bad, if the server found no results in the database it would return 404 instead of 200 and an indication of an empty dataset in the JSON payload. \\ The server would 500 or 400 frequently on requests that worked a minute ago. \\
+%
+%Somehow previous developers had considered the foreground and background of the app to be handled in view controllers instead of the app delegate, there was a lot of surreal code. \\
+%Whoever wrote it had no idea of the application life cycle or standard industry practices like not abusing HTTP error codes. \\
+% 
+%I was doing work on iOS, Android and ASP.NET and completing {\bf features} in two weeks they had waited 2 years to be completed.  \\
+%%I was doing work on iOS, Android and \hl{ASP.NET} and completing {\bf features} in two weeks they had waited 2 years to be completed.  \\
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%% \underline{February 2019 - May 2019} \\
+%Client    \textbf  { ServCorp} (Contracts) \\ 
+%\textcolor{blue} { \underline{https://www.servcorp.com.au/en/oneap/ }} \\
+%Technologies: Swift / Kotlin / Objective-C / Java / PHP / Larvel / CodeIgniter / \LaTeX \\
+%
+%
+%Comments: 
+%Replaced back-end login process with Auth0\textsuperscript{\ref{auth0}} (an OAuth implementation). {\bf Maintenance} work in PHP and iOS and Android code to replace naive login and session verification. \\
+%Did a {\bf localisation} for the Japanese (\begin{CJK}{UTF8}{min}日本語\end{CJK} ) version.  I have some understanding of Japanese having once worked in (Citrix 2005/2006) and visited the country several times. \\
+%Wrote extensive documentation, and fixed bugs. {\bf Refactored} local login to an OAuth login with Auth0\textsuperscript{\ref{auth0}}.
+%\\
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%%\underline{June 2018 - January 2019} \\
+%Client:    \textbf  { eDale / ServCorp} (Contracts)   \\
+%Technologies: Swift / Kotlin / Objective-C / Java / Node.js / Heroku / PHP / Larvel / CodeIgniter / \LaTeX  / Android \\
+%
+%Comments: Several overlapping short-term contracts. Some clean-up of previous work for Edale, bug fixing, and random ad hoc changes.  Hand over and manage a developer I hired through my own company to take over work. \\
+% Short-term work on Bluetooth tile beacons for finding car keys - type tag beacons. Another USB-based Bluetooth beacon (Sensoro) and QR code project for allocating desktop handset phones and Wifi access. Worked 3 days a week at Servcorp doing  maintenance work on an iOS and Android app that allows for provisioning of desktop handsets  and (guest) wifi access \\
+%
+%\begin{wrapfigure}{R}{0.1 \textwidth}
+%    \centering
+%    \includegraphics[height=1.5in]{servcorp.png}
+%    \caption*{Servcorp OneAp}
+%    \label{simulationfigure}
+%\end{wrapfigure}
+%
+%
+%
+%Sensoro beacons, translating Chinese comments into English. {\bf Implemented feature of} Android circular reveal animation like the iOS animation. completed button handlers, differentiated between my wifi and guest wifi buttons and called different web service endpoints accordingly. Scale and slide up login animation to match the iOS version. Made UI consistent with the iOS version. Added disconnect handset screen in Kotlin. Added {\bf feature} of pull to refresh the menu on the Android version to be consistent with the iOS version. Added site features refresh endpoint call and UI update. Added background handset polling. Used to be location dependent.  Fixed refresh, device count wrong and other bugs in. both iOS and Android versions.  A branch was created in the source code control system called allow\_handset\_choice to allow the choice of a beacon/handset other than the nearest found beacon.  An extra button was added to the found handset screen. Touching this button launches another screen with a list of handsets detected.  On both the iOS and Android versions all the beacons that were available in the area are stored in collections in the bowels of the Bluetooth code. In both versions, the collections were propagated up through the software layers until they are presented in a UITableView or a recycler view and the on-item selection handlers then put the selected MAC address in place of the nearest found beacon MAC address and then call the occupy handset code which calls the web service endpoint (Function 16).\\
+%
+%Half of the endpoints of the ServCorp server were in CodeIgniter and half were in Larvel in another repository. I set up a local copy of the code bases on my development machine for debugging server-side and client-side issues.\ 
+%\\
+%\\
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%%\underline{May 2018 – June 2018} \\
+%
+%Client: 	\textbf  {Edale Holdings Pty Ltd } (Master contract) \\
+%The app has been removed from the app store. \\
+%Technologies: 	Android/iOS/Heroku/Amazon S3, Kotlin, retrofit2\textsuperscript{\ref{retrofit}}, Swift4, node.js, mongoDB. \\
+%\textbf{ 		Front-end and back-end developer. } {\bf Team leader}  \\
+%Comments:	{\bf Greenfield development} Created a node.js web service with about a dozen endpoints. Created an iOS app that allows users to register, log in and like other users of a dating app. User images on S3 displayed on a dating app. Created an Android version of the same app to talk to the same web service. Full control over everything changing web services to fit the needs of mobile apps and changing mobile apps to deal with web service restrictions. Next to no formal specification. Lots of client hand-holding, random inconsistent changes, About 2700 lines of Kotlin, about 1000 lines of node.js and about 2200 lines of {\bf Swift4} in the first week.\\ I eventually hired another developer through my own company.
+%\textbf{Complete app start to finish} \\
+%\\
+%
+%\begin{wrapfigure}{R}{0.1 \textwidth}
+%    \centering
+%    \includegraphics[height=1.5in]{eshepard1.png}
+%    \caption*{Bluetooth cattle scanner}
+%    \label{simulationfigure}
+%\end{wrapfigure}
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%%\underline{February 2018 - May 2018} \\
+%
+%Client: 	\textbf  {Object consulting} (Contract) \\  \\
+%Technologies: 	Kotlin, Android, Bluetooth, Retrofit2\textsuperscript{\ref{retrofit}}  \\
+%\textbf{  Android developer } \\
+%Comments:	{\bf Greenfield development}. Created an app that read from an RFID tag “wand”.  The RFID tags would be assigned as a collar or an animal tag. The list of tags was uploaded as JSON to the RESTful web service. Used retrofit2 for accessing the web service. Used Realm to store the tags. Used some example Bluetooth code to read the wand and send it simple commands. \\
+%\textbf{Complete app start to finish} \\
+%\\
+%
+%% \underline{January 2018} - Skiing in Japan. \\
+%% \\
+%
+%
+%
+%\begin{wrapfigure}{R}{0.1 \textwidth}
+%    \centering
+%    \includegraphics[height=1.5in]{frollo1.png}
+%    \caption*{Frollo}
+%    \label{simulationfigure}
+%\end{wrapfigure}
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%% \underline{September 2017 – December 2017}. \\
+%
+%Client: 	\textbf  {Frollo} (Contract) \\
+%
+%\textcolor{blue} { \underline{https://apps.apple.com/app/id1179563005 } } \\
+%   
+%Technologies: 	Kotlin, \\
+%\textbf{ 		Android developer  }\\
+%Comments:	{\bf Greenfield development}. Created an app that integrates financial data from all bank accounts from all banks and hits about 60 endpoints on a single web service. Created multi-dimensional build variants so there was product A, production, staging, and develop and the same for product B. Wrote about 21,000 lines of Kotlin and about 800 lines of Java in 2 months. Initially not very idiomatic Kotlin but progressively more stylistic Kotlin. Wrote JUnit tests. Used com.github.PhilJay:MPAndroidChart to present data pulled from \\com. square-up.retrofit2:retrofit:2.3.0 into recycler views. Used \\ com.github.vicpinm:krealmextensions:1.1.5 to store data from the endpoints. Used Picasso to fetch and display bank icons. Used bouncy castle to encrypt data put or posted to endpoints. Used Android Account manager to store account information. Created one-time passwords to send credentials and financial data to the server. Used SSL-pinning.  Created code that read data from an end-point and dynamically created controls from it almost like a web browser. Used an Airbnb library on GitHub to do deep linking to handle frollo:// and https://m.frollo.us   \\
+%\textbf{Complete app start to finish} The entire app had already between done on the other platform and all decisions had been made so it was a matter of making like for like. \\
+%\\
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%%\underline{March 2017 – May 2017} \\
+%
+%Client: 	\textbf  { Seven Studio at the Easter Show (2 weeks),  AMP Banking App} (Multiple Contracts)  \\
+%Technologies: 	Android, iOS (iPad), AlamoFire, ffmpeg, Swift 3, AWS, S3., Carthage, mongoose.js, node.js, MongoDB, Kotlin,  \\
+%\textbf{ 		iOS/Node.js, MongoDB, Android developer. } \\
+%Comments:	\\ 
+%AMP Android banking app  - Kotlin, RxJava, Dagger dependency injection.  A mess of deeply nested Kotlin templates. “Clean design” – model, view, presenter, use case, contracts. \\
+%\\
+%7Studio, an App that records videos, displays a teleprompter. The recorded video gets an overlay graphic applied and then merged with a news break intro and news break closing theme. RecordedUI XC unit test. Memory leak debugging with instruments. Run at the Easter show for kids to be a reporter for a day. \\
+%\\
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%%\underline{December 2016 – March 2017} \\
+%%\\
+%Client: 	\textbf  {Accenture/Foxtel} (Contract) \\
+%\textcolor{blue}{ \underline{https://play.google.com/store/apps/details?id=com.foxtel.epg\&hl=en\_AU\&gl=US } }  \\
+%Technologies: 	Android, Web Services \\
+%\textbf{ 		Android developer  } \\
+%Comments:	{\bf Maintenance work} on 100,000 plus line of code program guide / billing-account management app with hundreds of thousands of users. Read crash reports, and patched code with defensive programming techniques like checking if things are null before attempting to use them. Fairly basic maintenance work. The code at times was textbook on what not to do. \\
+%\\
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%% \underline{June 2016 – November 2016} \\
+%
+%Client: 	\textbf  {Invocare} (Contract) \\
+%No link: Internal Corporate portal app \\
+%Technologies: 	iOS. Objective-C (pre-dating ARC), iOS, Web Services \\
+%\textbf{ iOS developer, } {\bf Architect. Team leader}. \\
+%Comments:	Maintenance work on an iPad app used to sell funeral services.
+%		\textbf{Salesforce}, Magic Record,  SDWebImage, Masonary, Cocopods.
+%		There were about 100 cases in JIRA. I go through, pick a case, read a 
+%chain of emails going for 6 months, put in a fix for 5 lines of code in 20 minutes, stick it on a branch in bitbucket. I end up creating a dozen or so branches, all different fairly trivial fixes, never code reviewed, never tested. I’m told they’re doing a hybrid app now (Cordova, JavaScript ) and my role is now “Application Architect”. I have to look at issues like the flow of data app to SalesForce to Epicor is truncating data and organise workshops with end users, and I digging around in T-SQL on SQL Server and APEX classes in SalesForce triggers and I end up churning out about 1000 pages of documentation and writing 50 to 100 lines of code in total. I hired a handful of developers. Lots of meetings, gathering requirements with end users. \\
+%\textbf{Resolution of issues that had been outstanding for over a year} \\
+%\\
+%
+%
+%\begin{wrapfigure}{R}{0.1 \textwidth}
+%    \centering
+%    \includegraphics[height=1.5in]{racenet2.png}
+%    \caption*{RaceNet}
+%    \label{simulationfigure}
+%\end{wrapfigure}
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%%\underline{January 2016 – June 2016 }\\
+%Client: 	\textbf  {RaceNet} (Contract) \\
+%No link: The app was replaced after several years. \\
+%Technologies: 	Android and iOS. Java and Swift. \\
+%\textbf{ 		iOS, Android, Web Services developer. } \\
+%Comments:	{\bf Greenfield development.} For the Android version I wrote about 20,000 lines of code in the first month. About 5,000 lines a week. GSon, Android studio. Got the basic version of the Android app completed. Worked with Web services developer on defining data models and endpoints. Used about 30 web service endpoints. I used Cocoapods and SwiftyJSON. Wrote the iOS version in Swift. I ended up churning out about 30,000 lines of Android code in Java and about 20,000 lines of code in Swift. \\
+%\textbf{Complete app start to finish} \\
+%\\
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%%\underline{March 2015 – December 2015} \\
+%Client: 	\textbf  {AiiMS} (Contract)  \\
+%
+%Technologies: 	iOS 8, CoreData, Xcode 6, XCTest unit testing framework. \\
+%		{\bf Team leader} iOS, Android, Web Services. \\
+%Comments:	{\bf Mentoring} Taught PHP developer Objective-C, the use of libraries like Cocopods and Cococontrols.com. Taught use of AFNetworking\textsuperscript{\ref{afnet}} and JSONModel. 
+%	Taught C\# .NET developer Android, Gradle, Maven, use of libraries and search.maven.org. 
+%	Taught both the use of git.  
+%	Evaluation of web service frameworks such as node.js, and Ruby on Rails before settling back on C\# .NET.
+%%	Evaluation of web service frameworks such as node.js, and Ruby on Rails before settling back on \hl{C\# .NET.}
+%	\textbf{Technical leadership} on various things such as selecting CMS - bespoke vs Joomla vs others. \\
+%\\
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%% \underline{August 2014 - March 2015} \\
+%Client: 	\textbf  {Macquarrie University finance department, TriBeeCam} (Multiple Contracts) \\
+%Technologies: 	Perl on Windows,  NAB data source, Excel Spreadsheets and VS Script.  iOS 8, CoreData, Xcode 6, XCTest unit testing framework. \\
+%\textbf{ 		Freelance project contractor. } \\
+%Comments:	Did maintenance work for a university that brings me back every couple of years.\\
+% Did AFNetworking\textsuperscript{\ref{afnet}} to JSONModel wrapper for a camera app. UIKit, everything is done in code, no storyboards, nib files, or anything. Git, JSONModel, JSON. \\
+%
+%
+%\begin{wrapfigure}{R}{0.1 \textwidth}
+%    \centering
+%    \includegraphics[height=1.5in]{doppeltime1.png}
+%    \caption*{DoppelTime}
+%    \label{simulationfigure}
+%\end{wrapfigure}
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%% \underline{May 2014 – August 2014} \\
+%Client: 	\textbf  {DoppelTime}.  (Contract) \\
+%Link: \textcolor{blue}{ \underline{https://apps.apple.com/gb/app/dopel/id1434777360}} \\
+%\textcolor{blue}{ \underline{ https://play.google.com/store/apps/details?id=com.dopel.dopel   }}  \\
+%Technologies: 	iOS 7, CoreData, Xcode 5, Unit testing framework. \\
+%\textbf{ 		iOS developer. } \\
+%Comments:	Completed an iOS app, added social elements, camera roll picker, camera control, voice recorder, bug fixing and finished off half-completed code. The company is a start-up in a start-up incubator. High pressure for quick results.  Used Cocopods, AFNetworking\textsuperscript{\ref{afnet}}, UIKit, GCD, Flurry Analytics, GoogleMaps, Core Graphics, added a bunch of UIViews to a core animation layer, did some cute explode-out pseudo-button animations and added gesture recognizers to the UIViews.  Core Location, AVFoundation for Camera \& Audio record/playback. Some node.js debugging of the services the iOS app used. Set up node.js for local testing of mobile code. \\
+%\\
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+%
+%% \underline{October 2013 – May 2014} \\
+%Client: 	\textbf  {SmartBill} (Contract) \\
+%No Link: Removed - App Store policies \\
+%Technologies: 	Android, Sqlite3, iOS 7, CoreData, Xcode 5s Unit testing framework.  \\
+%\textbf{ iOS/Android developer.  }\\
+%Comments:	\textbf { Greenfield development}. Developed an Android and iOS app to gather data usage and call log data and send it to a server for ‘smart bill’ analysis against phone plans. Used silent push notifications to wake the app up for processing. AFNetworking\textsuperscript{\ref{afnet}}, working on ASP.NET code for Apple push notification servers. SQL Lite. \\
+%%Comments:	\textbf { Greenfield development}. Developed an Android and iOS app to gather data usage and call log data and send it to a server for ‘smart bill’ analysis against phone plans. Used silent push notifications to wake the app up for processing. AFNetworking\textsuperscript{\ref{afnet}}, working on \hl{ASP.NET} code for Apple push notification servers. SQL Lite. \\
+%\textbf{Complete app start to finish} \\
+%\\
+%
+%%\underline{October 2013 – January 2014} \\
+%%Client: 	\textbf  {PymbleSoftware} \\
+%%Technologies: 	iOS. \\
+%%\textbf( 		Freelance Developer. \\
+%%Comments:	Very small freelance projects such as minor work on a social network app.
+%%	Released some internal products (Search for PymbleSoftware on the app store). JavaScript, jQuery, JQueryMobile, etc.  \\
+%%	\\
+%
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+
+% \underline{July 2013 – October 2013} \\
+Client: 	\textbf  {Industrea/GE Mining} (Contract) \\
+Technologies: 	ARM Embedded Linux, Sqlite3, rtrees, sockets. \\
+\textbf{ C++ developer.  }\\
+Comments:	Added {\bf features}. Developed a GPS Fence Daemon for a Collision Avoidance System (CAS). Point in Polygon, pulling fence data from web services. About 9000 lines of code in 3 months (about 100 – 200 lines of code a day).
+	SQL Lite. \\
+\\
+
+\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+\\
+
+%\underline{January 2013 – April 2013} \\
+% \underline{ August 2012 - April 2013} \\
+
+%Client: 	\textbf  {Kordia} (Contract) \\
+%No link: The app was available through the corporate portal only. \\
+%Technologies: 	JSONKit, YAJL JSON parser, Telerik C\# controls, Visual Studio 2010, SQL Server 2010, Team Foundation Server. ASP.NET web services.\\
+%%Technologies: 	JSONKit, YAJL JSON parser, Telerik C\# controls, Visual Studio 2010, SQL Server 2010, Team Foundation Server. \hl{ASP.NET} web services.\\
+%\textbf{ iOS Developer. }\\
+%Comments:	{\bf Maintenance} work on KST, Kordia's iPod app that communicates with a web service pulling down JSON data for Telco site planning, such as Telstra, Downer and NBN. Converted JSON requests to background SAX style streaming requests updating a UITableView as large projects with lots of assets were taking a long time to update with no indication to the user of any activity.
+%	Employed code blocks, ARC, Multi-threading and other more recent or advanced iOS techniques. A little C\#/XAML but mostly Telerik controls.  \\
+%\\
+
+%\begin{wrapfigure}{R}{0.1 \textwidth}
+%    \centering
+%    \includegraphics[height=1.5in]{crywhy.jpg}
+%    \caption*{CryWhy}
+%    \label{simulationfigure}
+%\end{wrapfigure}
+
+
+
+
+%\underline{August 2012 - January 2013 }  \\
+%
+%Client: 	\textbf  {PymbleSoftware Pty Ltd  (Self employed) } \\
+%Technologies: 	\\
+%Title: 		iOS Developer. \\
+%Comments:	Developed CryWhy  \\  (   \textcolor{blue} { \underline{ http://itunes.apple.com/us/app/crywhy/id553990078?ls=1\&mt=8 }} ), 
+%	Ported chroma print open source library to iOS to create Fast Fourier Transform (FFT), spectrogram and compare spectrograms.
+%		Developed Cricket Score Sheet. Short 1 or 2-week freelance contracts.
+%Your Flash Cards (with in-app purchases), PS Trading Data (XML Parsing and presentation of web services data, CoreData, and iTunes import/export), Property Numbers (in several languages), Baseball Score Sheet (with in-app advertising), Your Flash Cards for Windows Phone 7, Property Numbers for Windows Phone 8 (C\#/XAML).  \\
+%\\
+
+% \underline{December 2011 – August 2012 }\\
+
+%\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+%\\
+
+Client: 	\textbf  {ShuffleMaster  (Star Games)   (Poker machines) } \\
+Technologies: 	OpenGL, Qt, C++, Linux and embedded Linux. SDL, Fedora Core 4, OpenSUSE 11.4 \\
+\textbf{ Linux C/C++ developer. } \\
+Comments:	Worked on Roulette, Baccarat, and Sicbo, player terminals and 
+		dealer terminals.  Bug fixing assisted with the development of the concurrent
+		projects, implemented a couple of cute animations and some tab drawings,
+		tab switching functions. \\
+
+
+\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+\\
+
+%\underline{May 2011 – November 2011 }\\
+
+Client: 	\textbf  {Mercurien } (Contract) \\
+Technologies: 	OpenCV, Hadoop\Cfootnote[blue]{https://hadoop.apache.org/}, ZooKeeper\Cfootnote[blue]{https://zookeeper.apache.org/}, Cloud Computing technologies, C++, JSON, REST, AJAX, Eclipse, Java, Ant. Maven, Cisco 3400E, Netgear FVS 336.  Bamboo, Maven, Ant. Ruby \\
+\textbf{ IT Specialist. (network administration, programming, cabling, etc). } \\
+Comments:	Evaluated cloud computing technologies. Creating VPNs, production 
+		and internal Development/Test subnets. Building Java and C++ 
+ANPR \footnote{(Automatic Number Plate Recognition)} software. Shell scripting in bash, creating Java build plans in Bamboo. Configuration and release management. OS-X Server administration. SVN management.  Installing cameras in car parks, porting OpenCV (C++ computer vision) to OpenIndiana\Cfootnote[blue]{https://www.openindiana.org/} (Open Solaris). Some OS-X Objective-C coding. Debugging and fixing some pre-existing Ruby code. \\
+\\
+
+\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+\\
+
+
+% \underline{June 2010 – May 2011} \\
+
+Client: 	\textbf  {Samsung Electronics Australia (SEAU)}  (Contract)  -- Mobile development and wrote a mobile development book for a publisher  \\
+Technologies: 	C++, bada, JSON, REST, AJAX, OpenGL ES, Widgets, iPhone, Android. StarUML, PowerVR, Internet@TV Widget SDK. Eclipse. Flex/Flash Lite for mobile. \\
+\textbf{  Bada (Mobile) Specialist. } \\
+Comments:	Developer support specialist, helping people port applications from Android and iPhone. Digging through iOS, Android and Widget code. Site visits to companies like Blue Pebble (Essendon Football Club) and Fairfax Digital. Assisted with development of the MyCareer app, sole responsibility for the {\bf Greenfield development} of Domain app working on-site at Fairfax offices working directly with Fairfax as Samsung’s clients. Helping developers port from iOS to Bada, digging through iOS and bada code.  
+
+	{\bf Greenfield development} Wrote the entire Essendon Football Club App within one week, Shows match fixtures, with scores if played, from JSON data as logo –v- logo, Downloads thumbnail images from URL in JSON data, and shows images in news items. Player profiles, injury lists, scores, football club shop, live chat, statistics, etc. All are downloaded live from the official site. YouTube of app running on phone: \textcolor{blue}{ \underline{http://www.youtube.com/watch?v=LvmnGqPC6Gw}}\\
+
+\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+\\
+
+
+%\underline{January 2010 - April 2010}  (Series of very short contracts) \\
+
+Client: 	\textbf  { Open Systems Consulting }  \\
+Technologies: 	RedHat Linux, Oracle, SCO UNIX Apache. \\
+\textbf{ 		C/PERL Analyst/Programmer for iPaq mobile devices and infrastructure. } \\
+Comments:	General UNIX {\bf administration} activities, scripting, adapting cron jobs, setting up IMAP servers, Apache configuration, buying SSL certificates, SCO UNIX and Linux, maintaining very very old legacy C code called “carry” and “directbook”. Creating WSDL specifications for SOAP::Lite interface and code for a system that accepts SOAP requests and transfers the XML data to whichever state it is destined for. Some PERL.  3 days a week, consulting work. Gathering requirements directly from managing directors of transport companies and implementing changes or making bug fixes and direct deployments to live systems. \\
+\\
+
+\noindent\hfil\rule{0.5\textwidth}{.4pt}\hfil
+\\
+
+
+\input{2000s.tex}
+\input{1990s.tex}
+\input{1980s.tex}
+
+%\input{summary.tex}
+\input{education-categories.tex}
+
+\input{publications.tex}
+
+
+%Professional Organisation membership
+%Digital Equipment Corporation User Society (DECUS). 
+%Australian Unix User Group (AUUG).
+
+\input{other.tex}
+
+
+
+\begin{wrapfigure}{l}{0.1 \textwidth}
+ \begin{pspicture}(1in,1in)
+ \psbarcode{https://pymblesoftware.com/cv.pdf}{}{qrcode}
+ \end{pspicture}
+ \caption*{Latest CV}
+\end{wrapfigure}
+
+
+
+\begin{wrapfigure}{l}{0.1 \textwidth}
+ \begin{pspicture}(1in,1in)
+ \psbarcode{https://www.amazon.com.au/dp/B0DK4FHMZ4}{}{qrcode}
+ \end{pspicture}
+ \caption*{Book: 35 Years in Software Development}
+\end{wrapfigure}
+
+
+
+
+
+\begin{wrapfigure}{l}{0.1 \textwidth}
+ \begin{pspicture}(1in,1in)
+ \psbarcode{https://www.amazon.com/Programming-bada-Regan-Russell-ebook/dp/B007LFX608}{}{qrcode}
+ \end{pspicture}
+ \caption*{Book: Prograqmming bada}
+\end{wrapfigure}
+
+
+
+\begin{wrapfigure}{l}{0.1 \textwidth}
+ \begin{pspicture}(1in,1in)
+ \psbarcode{https://calendly.com/regan-russell}{}{qrcode}
+ \end{pspicture}
+ \caption*{Book a meeting with me}
+\end{wrapfigure}
+
+
+
+
+
+%\begin{figure}
+%\hfill
+%\subfigure[Title A]{\includegraphics[width=5cm]{ \psbarcode{https://pymblesoftware.com/cv.pdf}{}{qrcode}}}
+%\hfill
+%\subfigure[Title B]{\includegraphics[width=5cm]{\psbarcode{https://www.amazon.com.au/dp/B0DK4FHMZ4}{}{qrcode}}}
+%\hfill
+%\caption{Title for both}
+%\end{figure}
+
+%\begin{figure}
+%\centering
+%\begin{subfigure}{.5\textwidth}
+%  \centering
+%  \includegraphics[width=.4\linewidth]{image1}
+%  \caption{A subfigure}
+%  \label{fig:sub1}
+%\end{subfigure}%
+%\begin{subfigure}{.5\textwidth}
+%  \centering
+%  \includegraphics[width=.4\linewidth]{image1}
+%  \caption{A subfigure}
+%  \label{fig:sub2}
+%\end{subfigure}
+%\caption{A figure with two subfigures}
+%\label{fig:test}
+%\end{figure}
+%
+%\begin{figure}
+%\centering
+%\begin{minipage}{.5\textwidth}
+%  \centering
+%  \includegraphics[width=.4\linewidth]{image1}
+%  \captionof{figure}{A figure}
+%  \label{fig:test1}
+%\end{minipage}%
+%\begin{minipage}{.5\textwidth}
+%  \centering
+%  \includegraphics[width=.4\linewidth]{image1}
+%  \captionof{figure}{Another figure}
+%  \label{fig:test2}
+%\end{minipage}
+%\end{figure}
+
+
+
+\end{document}
