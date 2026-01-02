@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.21)  3 DEC 2025 13:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.21)  17 DEC 2025 15:38
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1693,6 +1693,12 @@ LaTeX Warning: Label `simulationfigure' multiply defined.
 
 LaTeX Warning: Label `simulationfigure' multiply defined.
 
+
+LaTeX Warning: Label `simulationfigure' multiply defined.
+
+
+LaTeX Warning: Label `simulationfigure' multiply defined.
+
 )
 \openout1 = `cv-new.aux'.
 
@@ -3333,59 +3339,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--1
  []
 
 )) (./publications.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+<35-years.jpg, id=179, 294.09875pt x 467.7475pt>
+File: 35-years.jpg Graphic file (type jpg)
+<use 35-years.jpg>
+Package pdftex.def Info: 35-years.jpg  used on input line 15.
+(pdftex.def)             Requested size: 22.71613pt x 36.135pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--14
+Package wrapfig Warning: Collision between wrapping environments on input line 
+25.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--18
-
- []
-
+<bada.jpg, id=180, 315.1775pt x 446.66875pt>
+File: bada.jpg Graphic file (type jpg)
+<use bada.jpg>
+Package pdftex.def Info: bada.jpg  used on input line 27.
+(pdftex.def)             Requested size: 25.49364pt x 36.135pt.
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 21--26
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
 
  []
 
-<DDJ-1.jpeg, id=182, 639.38875pt x 787.94376pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
+
+ []
+
+<DDJ-1.jpeg, id=184, 639.38875pt x 787.94376pt>
 File: DDJ-1.jpeg Graphic file (type jpg)
 <use DDJ-1.jpeg>
-Package pdftex.def Info: DDJ-1.jpeg  used on input line 30.
+Package pdftex.def Info: DDJ-1.jpeg  used on input line 50.
 (pdftex.def)             Requested size: 29.3176pt x 36.135pt.
 
-Underfull \hbox (badness 4266) in paragraph at lines 31--31
+Underfull \hbox (badness 4266) in paragraph at lines 51--51
 []|\T1/cmr/m/n/10 Doc Dobbs
  []
 
-<DDJ-2.jpeg, id=183, 574.145pt x 786.94pt>
+<DDJ-2.jpeg, id=185, 574.145pt x 786.94pt>
 File: DDJ-2.jpeg Graphic file (type jpg)
 <use DDJ-2.jpeg>
-Package pdftex.def Info: DDJ-2.jpeg  used on input line 42.
+Package pdftex.def Info: DDJ-2.jpeg  used on input line 62.
 (pdftex.def)             Requested size: 26.36105pt x 36.135pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--57
+Underfull \hbox (badness 10000) in paragraph at lines 70--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--80
+Underfull \hbox (badness 10000) in paragraph at lines 79--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 ) (./other.tex (0) Try shape with scale 4.94739pt.  (Delta = 0.0).   . . . . .
 . . . . . . . . . . . . . Formatting.  Expected 18 lines; got 18 lines
-Reformat paragraph with \rightskip= 0.0pt. [31 <./DDJ-1.jpeg> <./DDJ-2.jpeg>])
-<cv-new-pics.pdf, id=189, page=2, 59.22125pt x 59.22125pt>
+Reformat paragraph with \rightskip= 0.0pt. [31 <./35-years.jpg> <./bada.jpg> <.
+/DDJ-1.jpeg> <./DDJ-2.jpeg>])
+<cv-new-pics.pdf, id=190, page=2, 59.22125pt x 59.22125pt>
 File: cv-new-pics.pdf Graphic file (type pdf)
 <use cv-new-pics.pdf, page 2>
 Package pdftex.def Info: cv-new-pics.pdf , page2 used on input line 783.
@@ -3399,7 +3420,7 @@ Overfull \hbox (5.01529pt too wide) in paragraph at lines 783--785
 Package wrapfig Warning: Collision between wrapping environments on input line 
 790.
 
-<cv-new-pics.pdf, id=190, page=3, 59.22125pt x 59.22125pt>
+<cv-new-pics.pdf, id=191, page=3, 59.22125pt x 59.22125pt>
 File: cv-new-pics.pdf Graphic file (type pdf)
 <use cv-new-pics.pdf, page 3>
 Package pdftex.def Info: cv-new-pics.pdf , page3 used on input line 792.
@@ -3433,7 +3454,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 794--794
 Package wrapfig Warning: Collision between wrapping environments on input line 
 801.
 
-<cv-new-pics.pdf, id=191, page=4, 75.28125pt x 75.28125pt>
+<cv-new-pics.pdf, id=192, page=4, 75.28125pt x 75.28125pt>
 File: cv-new-pics.pdf Graphic file (type pdf)
 <use cv-new-pics.pdf, page 4>
 Package pdftex.def Info: cv-new-pics.pdf , page4 used on input line 803.
@@ -3452,7 +3473,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 805--805
 Package wrapfig Warning: Collision between wrapping environments on input line 
 810.
 
-<cv-new-pics.pdf, id=192, page=5, 59.22125pt x 59.22125pt>
+<cv-new-pics.pdf, id=193, page=5, 59.22125pt x 59.22125pt>
 File: cv-new-pics.pdf Graphic file (type pdf)
 <use cv-new-pics.pdf, page 5>
 Package pdftex.def Info: cv-new-pics.pdf , page5 used on input line 812.
@@ -3664,6 +3685,8 @@ education-sap.tex
 education-security.tex
 education-web3.tex
 publications.tex
+35-years.jpg    Graphic file (type jpg)
+    bada.jpg    Graphic file (type jpg)
    DDJ-1.jpeg    Graphic file (type jpg)
    DDJ-2.jpeg    Graphic file (type jpg)
    other.tex
@@ -3680,10 +3703,10 @@ runsystem(rm cv-new.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 31142 strings out of 492616
- 593658 string characters out of 6129481
- 822619 words of memory out of 5000000
- 34105 multiletter control sequences out of 15000+600000
+ 31152 strings out of 492616
+ 593796 string characters out of 6129481
+ 822620 words of memory out of 5000000
+ 34113 multiletter control sequences out of 15000+600000
  40906 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,14n,85p,1750b,986s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3712,10 +3735,10 @@ exmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2019/tex
 mf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2019/texmf
 -dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2019/texmf-d
 ist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on cv-new.pdf (32 pages, 1801323 bytes).
+Output written on cv-new.pdf (32 pages, 1843390 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
+ 288 PDF objects out of 1000 (max. 8388607)
  171 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 251 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 

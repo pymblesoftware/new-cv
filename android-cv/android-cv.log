@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.21)  3 DEC 2025 15:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.21)  2 JAN 2026 12:53
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1681,6 +1681,12 @@ LaTeX Warning: Label `simulationfigure' multiply defined.
 
 LaTeX Warning: Label `simulationfigure' multiply defined.
 
+
+LaTeX Warning: Label `simulationfigure' multiply defined.
+
+
+LaTeX Warning: Label `simulationfigure' multiply defined.
+
 )
 \openout1 = `android-cv.aux'.
 
@@ -1868,7 +1874,37 @@ brarydecorations.text.code.tex
 \pgf@lib@dec@text@box=\box136
 )
 \tikz@lib@dec@te@box=\box137
-) [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+)
+Underfull \hbox (badness 10000) in paragraph at lines 142--147
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--147
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--173
+
+ []
+
+[1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 Non-PDF special ignored!
@@ -1877,183 +1913,153 @@ Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
 Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
-]
-Underfull \hbox (badness 10000) in paragraph at lines 158--161
+ <./android-cv-pics.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 179--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--161
+Underfull \hbox (badness 10000) in paragraph at lines 179--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--170
+Underfull \hbox (badness 10000) in paragraph at lines 184--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--170
+Underfull \hbox (badness 10000) in paragraph at lines 184--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--188
+Underfull \hbox (badness 10000) in paragraph at lines 196--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--188
+Underfull \hbox (badness 10000) in paragraph at lines 196--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--188
+Underfull \hbox (badness 10000) in paragraph at lines 196--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--188
+Underfull \hbox (badness 10000) in paragraph at lines 196--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--192
+Underfull \hbox (badness 10000) in paragraph at lines 211--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--216
+Underfull \hbox (badness 10000) in paragraph at lines 216--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--216
+Underfull \hbox (badness 10000) in paragraph at lines 216--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--216
+Underfull \hbox (badness 10000) in paragraph at lines 216--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--216
+Underfull \hbox (badness 10000) in paragraph at lines 216--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--216
+Underfull \hbox (badness 10000) in paragraph at lines 216--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--216
+Underfull \hbox (badness 10000) in paragraph at lines 216--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--216
+Underfull \hbox (badness 10000) in paragraph at lines 216--237
 
  []
 
-[2 <./android-cv-pics.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 219--221
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--227
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 240--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Underfull \hbox (badness 10000) in paragraph at lines 245--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--237
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--237
+Underfull \hbox (badness 10000) in paragraph at lines 252--258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 252--258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--243
+Underfull \hbox (badness 10000) in paragraph at lines 259--261
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--254
+Underfull \hbox (badness 10000) in paragraph at lines 262--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--254
+Underfull \hbox (badness 10000) in paragraph at lines 266--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--254
+Underfull \hbox (badness 10000) in paragraph at lines 266--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--254
+Underfull \hbox (badness 10000) in paragraph at lines 266--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--254
+Underfull \hbox (badness 10000) in paragraph at lines 266--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--275
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 263--265
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 267--269
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--278
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--281
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--286
+Underfull \hbox (badness 10000) in paragraph at lines 284--286
 
  []
 
@@ -2063,174 +2069,179 @@ Underfull \hbox (badness 10000) in paragraph at lines 288--290
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--299
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--299
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--299
+Underfull \hbox (badness 10000) in paragraph at lines 297--299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--302
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--307
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--320
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--320
 
  []
 
 <password.png, id=53, 722.7pt x 1565.85pt>
 File: password.png Graphic file (type png)
 <use password.png>
-Package pdftex.def Info: password.png  used on input line 302.
+Package pdftex.def Info: password.png  used on input line 323.
 (pdftex.def)             Requested size: 50.03175pt x 108.405pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 []|\T1/cmr/m/n/10 Cov-er-Moore
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 \T1/cmr/m/n/10 Pass-word
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--309
+Underfull \hbox (badness 10000) in paragraph at lines 328--330
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--313
+Underfull \hbox (badness 10000) in paragraph at lines 332--334
 
  []
 
 
-Underfull \hbox (badness 1596) in paragraph at lines 314--320
+Underfull \hbox (badness 1596) in paragraph at lines 335--341
 \T1/cmr/m/n/10 Pub-lish-ing/observing, as the in-put matched the rules the la-b
 el of each rule turned from red to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--320
+Underfull \hbox (badness 10000) in paragraph at lines 335--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--323
+Underfull \hbox (badness 10000) in paragraph at lines 342--344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--331
+Underfull \hbox (badness 10000) in paragraph at lines 347--352
 
  []
 
 <HeritageBank.png, id=55, 453.695pt x 929.4725pt>
 File: HeritageBank.png Graphic file (type png)
 <use HeritageBank.png>
-Package pdftex.def Info: HeritageBank.png  used on input line 336.
+Package pdftex.def Info: HeritageBank.png  used on input line 357.
 (pdftex.def)             Requested size: 52.9111pt x 108.405pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--337
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 []|\T1/cmr/m/n/10 Her-itage
  []
 
 [4 <./password.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 341--343
+Underfull \hbox (badness 10000) in paragraph at lines 362--364
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--348
+Underfull \hbox (badness 10000) in paragraph at lines 366--369
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--351
+Underfull \hbox (badness 10000) in paragraph at lines 370--372
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--358
+Underfull \hbox (badness 10000) in paragraph at lines 375--379
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--361
+Underfull \hbox (badness 10000) in paragraph at lines 380--382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--367
+Underfull \hbox (badness 10000) in paragraph at lines 384--388
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--370
+Underfull \hbox (badness 10000) in paragraph at lines 389--391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--373
+Underfull \hbox (badness 10000) in paragraph at lines 392--394
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--373
+Underfull \hbox (badness 10000) in paragraph at lines 392--394
 
  []
 
 <watch.png, id=60, 321.2pt x 321.2pt>
 File: watch.png Graphic file (type png)
 <use watch.png>
-Package pdftex.def Info: watch.png  used on input line 376.
+Package pdftex.def Info: watch.png  used on input line 397.
 (pdftex.def)             Requested size: 54.20139pt x 54.2025pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--383
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--390
+Underfull \hbox (badness 10000) in paragraph at lines 406--411
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--396
+Underfull \hbox (badness 10000) in paragraph at lines 413--417
 
  []
 
 <payments.jpg, id=61, 752.8125pt x 1339.0025pt>
 File: payments.jpg Graphic file (type jpg)
 <use payments.jpg>
-Package pdftex.def Info: payments.jpg  used on input line 400.
+Package pdftex.def Info: payments.jpg  used on input line 421.
 (pdftex.def)             Requested size: 60.93842pt x 108.405pt.
 
-Overfull \hbox (6.73262pt too wide) in paragraph at lines 400--401
+Overfull \hbox (6.73262pt too wide) in paragraph at lines 421--422
  [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--407
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 409--412
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 413--415
-
- []
-
-[5 <./HeritageBank.png> <./watch.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 417--422
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
-
  []
 
 
@@ -2239,17 +2250,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 426--428
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--431
+Underfull \hbox (badness 10000) in paragraph at lines 430--433
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--434
+Underfull \hbox (badness 10000) in paragraph at lines 434--436
+
+ []
+
+[5 <./HeritageBank.png> <./watch.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 438--443
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--439
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--449
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--452
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--455
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--460
 
  []
 
@@ -2262,7 +2298,7 @@ File: UTF8.enc 2015/04/18 4.8.4
 (/usr/local/texlive/2019/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2015/04/18 4.8.4
 )
-LaTeX Font Info:    Try loading font information for C70+min on input line 443.
+LaTeX Font Info:    Try loading font information for C70+min on input line 464.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/cjk/contrib/wadalab/c70min.fd
@@ -2271,368 +2307,383 @@ File: c70min.fd 2015/04/18 4.8.4
 (/usr/local/texlive/2019/texmf-dist/tex/latex/cjk/contrib/wadalab/c70min.fdx
 File: c70min.fdx 2015/04/18 4.8.4
 )
-Underfull \hbox (badness 10000) in paragraph at lines 441--446
+Underfull \hbox (badness 10000) in paragraph at lines 462--467
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--449
+Underfull \hbox (badness 10000) in paragraph at lines 468--470
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--453
+Underfull \hbox (badness 10000) in paragraph at lines 472--474
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--456
+Underfull \hbox (badness 10000) in paragraph at lines 475--477
 
  []
 
 <servcorp.png, id=70, 170.6375pt x 303.1325pt>
 File: servcorp.png Graphic file (type png)
 <use servcorp.png>
-Package pdftex.def Info: servcorp.png  used on input line 459.
+Package pdftex.def Info: servcorp.png  used on input line 480.
 (pdftex.def)             Requested size: 61.02327pt x 108.405pt.
 
-Overfull \hbox (6.81747pt too wide) in paragraph at lines 459--460
+Overfull \hbox (6.81747pt too wide) in paragraph at lines 480--481
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--460
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
 []|\T1/cmr/m/n/10 Serv-corp
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--471
+Underfull \hbox (badness 10000) in paragraph at lines 489--492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--471
+Underfull \hbox (badness 10000) in paragraph at lines 489--492
 
  []
 
 [6 <./payments.jpg> <./servcorp.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 472--474
+Underfull \hbox (badness 10000) in paragraph at lines 493--495
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--484
+Underfull \hbox (badness 10000) in paragraph at lines 498--505
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--484
+Underfull \hbox (badness 10000) in paragraph at lines 498--505
 
  []
 
 <eshepard1.png, id=78, 722.7pt x 1284.8pt>
 File: eshepard1.png Graphic file (type png)
 <use eshepard1.png>
-Package pdftex.def Info: eshepard1.png  used on input line 487.
+Package pdftex.def Info: eshepard1.png  used on input line 508.
 (pdftex.def)             Requested size: 60.97104pt x 108.405pt.
 
-Overfull \hbox (6.76524pt too wide) in paragraph at lines 487--488
+Overfull \hbox (6.76524pt too wide) in paragraph at lines 508--509
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 488--488
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
 []|\T1/cmr/m/n/10 Blue-tooth
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 488--488
+Underfull \hbox (badness 1552) in paragraph at lines 509--509
 \T1/cmr/m/n/10 cat-tle scan-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--494
+Underfull \hbox (badness 10000) in paragraph at lines 513--515
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--503
+Underfull \hbox (badness 10000) in paragraph at lines 518--524
 
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 497--503
+Underfull \hbox (badness 1242) in paragraph at lines 518--524
 \T1/cmr/m/n/10 RFID tags would be as-signed as a col-lar or an an-i-mal tag. Th
 e list of tags was up-loaded as
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 497--503
+Underfull \hbox (badness 1248) in paragraph at lines 518--524
 \T1/cmr/m/n/10 store the tags. Used some ex-am-ple Blue-tooth code to read the 
 wand and send it sim-ple com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--503
+Underfull \hbox (badness 10000) in paragraph at lines 518--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--503
+Underfull \hbox (badness 10000) in paragraph at lines 518--524
 
  []
 
 <frollo1.png, id=79, 722.7pt x 1284.8pt>
 File: frollo1.png Graphic file (type png)
 <use frollo1.png>
-Package pdftex.def Info: frollo1.png  used on input line 511.
+Package pdftex.def Info: frollo1.png  used on input line 532.
 (pdftex.def)             Requested size: 60.97104pt x 108.405pt.
 
-Overfull \hbox (6.76524pt too wide) in paragraph at lines 511--512
+Overfull \hbox (6.76524pt too wide) in paragraph at lines 532--533
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 516--518
+Underfull \hbox (badness 10000) in paragraph at lines 537--539
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--522
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 523--524
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--530
+Underfull \hbox (badness 10000) in paragraph at lines 546--551
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--530
+Underfull \hbox (badness 10000) in paragraph at lines 546--551
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 531--533
+Underfull \hbox (badness 10000) in paragraph at lines 552--554
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--544
+Underfull \hbox (badness 10000) in paragraph at lines 557--565
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--544
+Underfull \hbox (badness 10000) in paragraph at lines 557--565
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--544
+Underfull \hbox (badness 10000) in paragraph at lines 557--565
 
  []
 
 [7 <./eshepard1.png> <./frollo1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 545--547
+Underfull \hbox (badness 10000) in paragraph at lines 566--568
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--556
+Underfull \hbox (badness 10000) in paragraph at lines 571--577
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--556
+Underfull \hbox (badness 10000) in paragraph at lines 571--577
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--559
+Underfull \hbox (badness 10000) in paragraph at lines 578--580
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--592
+Underfull \hbox (badness 10000) in paragraph at lines 606--613
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--592
+Underfull \hbox (badness 10000) in paragraph at lines 606--613
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--595
+Underfull \hbox (badness 10000) in paragraph at lines 614--616
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 643--651
+Underfull \hbox (badness 10000) in paragraph at lines 664--672
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 643--651
+Underfull \hbox (badness 10000) in paragraph at lines 664--672
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--662
+Underfull \hbox (badness 10000) in paragraph at lines 681--683
 
  []
 
 (./education-categories.tex (./education-mobile.tex)) (./publications.tex
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+<35-years.jpg, id=87, 294.09875pt x 467.7475pt>
+File: 35-years.jpg Graphic file (type jpg)
+<use 35-years.jpg>
+Package pdftex.def Info: 35-years.jpg  used on input line 15.
+(pdftex.def)             Requested size: 22.71613pt x 36.135pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--14
+Package wrapfig Warning: Collision between wrapping environments on input line 
+25.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--18
-
- []
-
+<bada.jpg, id=88, 315.1775pt x 446.66875pt>
+File: bada.jpg Graphic file (type jpg)
+<use bada.jpg>
+Package pdftex.def Info: bada.jpg  used on input line 27.
+(pdftex.def)             Requested size: 25.49364pt x 36.135pt.
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 21--26
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
 
  []
 
-<DDJ-1.jpeg, id=90, 639.38875pt x 787.94376pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
+
+ []
+
+<DDJ-1.jpeg, id=92, 639.38875pt x 787.94376pt>
 File: DDJ-1.jpeg Graphic file (type jpg)
 <use DDJ-1.jpeg>
-Package pdftex.def Info: DDJ-1.jpeg  used on input line 30.
+Package pdftex.def Info: DDJ-1.jpeg  used on input line 50.
 (pdftex.def)             Requested size: 29.3176pt x 36.135pt.
 
-Underfull \hbox (badness 4266) in paragraph at lines 31--31
+Underfull \hbox (badness 4266) in paragraph at lines 51--51
 []|\T1/cmr/m/n/10 Doc Dobbs
  []
 
-<DDJ-2.jpeg, id=91, 574.145pt x 786.94pt>
+<DDJ-2.jpeg, id=93, 574.145pt x 786.94pt>
 File: DDJ-2.jpeg Graphic file (type jpg)
 <use DDJ-2.jpeg>
-Package pdftex.def Info: DDJ-2.jpeg  used on input line 42.
+Package pdftex.def Info: DDJ-2.jpeg  used on input line 62.
 (pdftex.def)             Requested size: 26.36105pt x 36.135pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--57
+Underfull \hbox (badness 10000) in paragraph at lines 70--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--80
+Underfull \hbox (badness 10000) in paragraph at lines 79--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 )
-<android-cv-pics.pdf, id=92, page=2, 59.22125pt x 59.22125pt>
+<android-cv-pics.pdf, id=94, page=2, 59.22125pt x 59.22125pt>
 File: android-cv-pics.pdf Graphic file (type pdf)
 <use android-cv-pics.pdf, page 2>
-Package pdftex.def Info: android-cv-pics.pdf , page2 used on input line 783.
+Package pdftex.def Info: android-cv-pics.pdf , page2 used on input line 804.
 (pdftex.def)             Requested size: 59.22108pt x 59.22108pt.
 
-Overfull \hbox (5.01529pt too wide) in paragraph at lines 783--785
+Overfull \hbox (5.01529pt too wide) in paragraph at lines 804--806
 [][] 
  []
 
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-790.
+811.
 
-<android-cv-pics.pdf, id=93, page=3, 59.22125pt x 59.22125pt>
+<android-cv-pics.pdf, id=95, page=3, 59.22125pt x 59.22125pt>
 File: android-cv-pics.pdf Graphic file (type pdf)
 <use android-cv-pics.pdf, page 3>
-Package pdftex.def Info: android-cv-pics.pdf , page3 used on input line 792.
+Package pdftex.def Info: android-cv-pics.pdf , page3 used on input line 813.
 (pdftex.def)             Requested size: 59.22108pt x 59.22108pt.
 
-Overfull \hbox (5.01529pt too wide) in paragraph at lines 792--794
+Overfull \hbox (5.01529pt too wide) in paragraph at lines 813--815
 [][] 
  []
 
 
-Underfull \hbox (badness 7981) in paragraph at lines 794--794
+Underfull \hbox (badness 7981) in paragraph at lines 815--815
 []|\T1/cmr/m/n/10 Book: 35
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 794--794
+Underfull \hbox (badness 10000) in paragraph at lines 815--815
 \T1/cmr/m/n/10 Years in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 794--794
+Underfull \hbox (badness 10000) in paragraph at lines 815--815
 \T1/cmr/m/n/10 Soft-ware
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 794--794
+Underfull \hbox (badness 10000) in paragraph at lines 815--815
 \T1/cmr/m/n/10 De-vel-op-
  []
 
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-801.
+822.
 
-<android-cv-pics.pdf, id=94, page=4, 75.28125pt x 75.28125pt>
+<android-cv-pics.pdf, id=96, page=4, 75.28125pt x 75.28125pt>
 File: android-cv-pics.pdf Graphic file (type pdf)
 <use android-cv-pics.pdf, page 4>
-Package pdftex.def Info: android-cv-pics.pdf , page4 used on input line 803.
+Package pdftex.def Info: android-cv-pics.pdf , page4 used on input line 824.
 (pdftex.def)             Requested size: 75.28105pt x 75.28105pt.
 
-Overfull \hbox (21.07526pt too wide) in paragraph at lines 803--805
+Overfull \hbox (21.07526pt too wide) in paragraph at lines 824--826
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 805--805
+Underfull \hbox (badness 10000) in paragraph at lines 826--826
 \T1/cmr/m/n/10 graqm-ming
  []
 
 
 Package wrapfig Warning: Collision between wrapping environments on input line 
-810.
+831.
 
-<android-cv-pics.pdf, id=95, page=5, 59.22125pt x 59.22125pt>
+<android-cv-pics.pdf, id=97, page=5, 59.22125pt x 59.22125pt>
 File: android-cv-pics.pdf Graphic file (type pdf)
 <use android-cv-pics.pdf, page 5>
-Package pdftex.def Info: android-cv-pics.pdf , page5 used on input line 812.
+Package pdftex.def Info: android-cv-pics.pdf , page5 used on input line 833.
 (pdftex.def)             Requested size: 59.22108pt x 59.22108pt.
 
-Overfull \hbox (5.01529pt too wide) in paragraph at lines 812--814
+Overfull \hbox (5.01529pt too wide) in paragraph at lines 833--835
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 814--814
+Underfull \hbox (badness 10000) in paragraph at lines 835--835
 []|\T1/cmr/m/n/10 Book a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 814--814
+Underfull \hbox (badness 10000) in paragraph at lines 835--835
 \T1/cmr/m/n/10 meet-ing
  []
 
-[10 <./DDJ-1.jpeg> <./DDJ-2.jpeg> <./android-cv-pics.pdf> <./android-cv-pics.pd
-f> <./android-cv-pics.pdf>] [11 <./android-cv-pics.pdf>] (./android-cv.aux)
+[10 <./35-years.jpg> <./bada.jpg> <./DDJ-1.jpeg> <./DDJ-2.jpeg> <./android-cv-p
+ics.pdf> <./android-cv-pics.pdf>] [11 <./android-cv-pics.pdf> <./android-cv-pic
+s.pdf>] (./android-cv.aux)
 
  *File List*
  article.cls    2018/09/03 v1.4i Standard LaTeX document class
@@ -2798,6 +2849,8 @@ eshepard1.png    Graphic file (type png)
 education-categories.tex
 education-mobile.tex
 publications.tex
+35-years.jpg    Graphic file (type jpg)
+    bada.jpg    Graphic file (type jpg)
    DDJ-1.jpeg    Graphic file (type jpg)
    DDJ-2.jpeg    Graphic file (type jpg)
 android-cv-pics.pdf    Graphic file (type pdf)
@@ -2811,10 +2864,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30205 strings out of 492616
- 574654 string characters out of 6129481
- 788065 words of memory out of 5000000
- 33326 multiletter control sequences out of 15000+600000
+ 30215 strings out of 492616
+ 574792 string characters out of 6129481
+ 788064 words of memory out of 5000000
+ 33334 multiletter control sequences out of 15000+600000
  23935 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,14n,85p,1577b,859s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2830,10 +2883,10 @@ f-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2019/texmf-
 dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2019/texmf-di
 st/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2019/texmf-dist
 /fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on android-cv.pdf (11 pages, 1407090 bytes).
+Output written on android-cv.pdf (11 pages, 1449104 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
+ 153 PDF objects out of 1000 (max. 8388607)
  83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 196 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 
